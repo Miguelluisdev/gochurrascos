@@ -30,7 +30,9 @@ Aqui estão as principais dependências do projeto:
 
 3. Instale as dependências e baixe o banco de dados:
    ```bash
+   antes excluios aqruivos dev.db e a pasta migrations da pasta prisma para resetar o sqlite
    npm install # ou yarn install
+   npx prisma generate
    npx prisma migrate dev
    ```
 
