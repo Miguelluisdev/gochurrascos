@@ -30,7 +30,9 @@ Aqui estão as principais dependências do projeto:
 
 3. Instale as dependências e baixe o banco de dados:
    ```bash
+   antes excluios aqruivos dev.db e a pasta migrations da pasta prisma para resetar o sqlite
    npm install # ou yarn install
+   npx prisma generate
    npx prisma migrate dev
    ```
 
@@ -55,10 +57,6 @@ O aplicativo estará disponível em `http://localhost:8080`.
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests. Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
 ## Licença
-
-Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
 
 Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
